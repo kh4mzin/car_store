@@ -28,7 +28,7 @@ func main() {
 		Extension: ".html",
 		Master:    "layouts/main",
 	})
-
+	//
 	engine.Static("/public", "./public")
 
 	database, err := setDatabaseConnection(appConfiguration)
