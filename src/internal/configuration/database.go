@@ -34,6 +34,8 @@ func newDatabaseConfiguration(host *string, port *string, databaseName *string, 
 	}
 }
 
+//zhani one love == true,,
+
 func GetDatabaseConfiguration() *DatabaseConfiguration {
 	host := flag.String("db-host", "localhost", "postgres database host")
 	port := flag.String("db-port", "5432", "postgres database port")
